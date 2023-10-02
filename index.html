@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATM Project in JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="title-container">
+                <h1>ATM</h1>
+            </div>
+            <!-- Section 1 -->
+            <div class="sections">
+                <div class="section1">
+                    <div class="section1-title">
+                        <h3>Put Your Card to Start</h3>
+                    </div>
+                    <div class="section1-main">
+                        <img src="https://media.istockphoto.com/id/1071765894/photo/3d-rendering-of-an-atm-machine-with-its-screen-and-button-panel-in-a-close-view.jpg?s=612x612&w=0&k=20&c=U9RVHkdX3Y0WKh6pN1c6zU9CocU1M7s-sn4Hr22_mIA="
+                            alt="">
+                        <button id="startBtn" class="btn">Start</button>
+                    </div>
+                </div>
+                <!-- Section 2 -->
+                <div class="section2">
+                    <div class="section2-title title">
+                        <h3>Select Your Transections Type</h3>
+                    </div>
+                    <div class="section2-main">
+                        <h3>Current Account</h3>
+                        <h3>Saving Account</h3>
+                        <button id="section2" class="btn">Next</button>
+                    </div>
+                </div>
+                <!-- Section 3 -->
+
+                <div class="section3">
+                    <div class="section3-title title">
+                        <h3>Enter Your Password</h3>
+                    </div>
+                    <div class="section3-main">
+                        <img src="https://www.webwise.ie/wp-content/uploads/2016/01/Passwords-1024x512.png" alt="">
+                        <input class="input" type="password" id="password" placeholder="Enter 4 Digits Pass"
+                            maxlength="4">
+                        <button id="section3" class="btn">Enter</button>
+                    </div>
+                </div>
+
+                <!-- Section 4 -->
+                <div class="section4">
+                    <div class="section4-title title">
+                        <h3>Enter Amount</h3>
+                    </div>
+                    <div class="section4-main">
+                        <h3>Amount Must be Multiple of 500</h3>
+                        <input class="input" type="number" id="amount" placeholder="Enter Ammout">
+                    </div>
+                    <button id="section4" class="btn">Enter</button>
+                </div>
+
+                <!-- Section 5 -->
+                <div class="section5">
+                    <div class="section5-title title">
+                        <h3>Processing...</h3>
+                    </div>
+                    <div class="section5-main">
+                        <div class="loader"></div>
+                    </div>
+                </div>
+                <!-- Section 6 -->
+                <div class="section6">
+                    <div class="section6-title title">
+                        <h3>Take your Card...</h3>
+                    </div>
+                    <div class="section6-main">
+                        <img src="https://paytmblogcdn.paytm.com/wp-content/uploads/2021/07/ATM_8_WhatIsAnATMCardAndHowToUseIt-1-800x500.jpg"
+                            alt="">
+                        <!-- <div class="loader"></div> -->
+                    </div>
+                </div>
+
+                <!-- <div class="section7">
+                    <div class="section6-title title">
+                        <h3>Take your Card...</h3>
+                    </div>
+                    <div class="section7-main">
+                        <img src="https://paytmblogcdn.paytm.com/wp-content/uploads/2021/07/ATM_8_WhatIsAnATMCardAndHowToUseIt-1-800x500.jpg"
+                            alt="">
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

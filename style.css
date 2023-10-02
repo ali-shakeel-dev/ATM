@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ahrefs;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: royalblue;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.title-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.142);
+    text-align: center;
+    color: white;
+    background-color: rgb(20, 79, 255);
+}
+
+.sections {
+    position: absolute;
+}
+
+/* Section 1 */
+
+.section1 {
+    max-width: 350px;
+    background-color: white;
+    text-align: center;
+    padding: 50px 30px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.section1-title,
+.title {
+    background-color: rgb(20, 79, 255);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.section1 img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 15px 30px;
+    /* position: absolute;
+    bottom: 0; */
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+/* Section 2 */
+
+.section2,
+.section3,
+.section4,
+.section5,
+.section6,
+.section7 {
+    position: absolute;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.section2 .section2-main {
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 50px
+}
+
+.section2 .section2-main h3 {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.64);
+    padding: 40px 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+.section2 .section2-main h3.active {
+    border: 2px solid black;
+
+}
+
+.section2 .section2-main h3:hover {
+    background-color: rgba(128, 128, 128, 0.834);
+}
+
+/* Section 3 */
+
+.section3 .section3-main img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.section3 .section3-main input,
+.input {
+    width: 100%;
+    outline: none;
+    padding: 20px 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Section 4 */
+
+.section4-main {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.section4-main h3 {
+    padding: 30px 0;
+    opacity: .5;
+}
+
+/* Section 5*/
+
+.section5-main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    border: 3px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    animation: spin .5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Section 6 */
+.section6-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.section6 .section6-main img {
+    width: 100%;
+}
